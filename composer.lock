@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "artarts36/db-creator",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ArtARTs36/DbCreator.git",
-                "reference": "67c8ee0775ede0dbf04ff6256240bd3eb5d8fcc9"
+                "reference": "d59c43952ebe97b982fe381725eee1fe371b9b2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ArtARTs36/DbCreator/zipball/67c8ee0775ede0dbf04ff6256240bd3eb5d8fcc9",
-                "reference": "67c8ee0775ede0dbf04ff6256240bd3eb5d8fcc9",
+                "url": "https://api.github.com/repos/ArtARTs36/DbCreator/zipball/d59c43952ebe97b982fe381725eee1fe371b9b2a",
+                "reference": "d59c43952ebe97b982fe381725eee1fe371b9b2a",
                 "shasum": ""
             },
             "require-dev": {
@@ -43,9 +43,9 @@
             "description": "DB Creator",
             "support": {
                 "issues": "https://github.com/ArtARTs36/DbCreator/issues",
-                "source": "https://github.com/ArtARTs36/DbCreator/tree/1.0.1"
+                "source": "https://github.com/ArtARTs36/DbCreator/tree/1.0.2"
             },
-            "time": "2021-08-30T23:19:13+00:00"
+            "time": "2021-08-30T23:55:18+00:00"
         },
         {
             "name": "artarts36/env-editor",

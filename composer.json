@@ -12,5 +12,10 @@
             "name": "ArtARTs36",
             "email": "temicska99@mail.ru"
         }
-    ]
+    ],
+    "autoload": {
+        "files": [
+            "cli.php"
+        ]
+    }
 }
