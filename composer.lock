@@ -1,0 +1,149 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3caa036f8f87d66f22551271d4d5edb0",
+    "packages": [
+        {
+            "name": "artarts36/db-creator",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ArtARTs36/DbCreator.git",
+                "reference": "67c8ee0775ede0dbf04ff6256240bd3eb5d8fcc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ArtARTs36/DbCreator/zipball/67c8ee0775ede0dbf04ff6256240bd3eb5d8fcc9",
+                "reference": "67c8ee0775ede0dbf04ff6256240bd3eb5d8fcc9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArtARTs36\\DbCreator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ArtARTs36",
+                    "email": "temicska99@mail.ru"
+                }
+            ],
+            "description": "DB Creator",
+            "support": {
+                "issues": "https://github.com/ArtARTs36/DbCreator/issues",
+                "source": "https://github.com/ArtARTs36/DbCreator/tree/1.0.1"
+            },
+            "time": "2021-08-30T23:19:13+00:00"
+        },
+        {
+            "name": "artarts36/env-editor",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ArtARTs36/EnvEditor.git",
+                "reference": "1316eb43430a53f4f245435c467c388c0e112c66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ArtARTs36/EnvEditor/zipball/1316eb43430a53f4f245435c467c388c0e112c66",
+                "reference": "1316eb43430a53f4f245435c467c388c0e112c66",
+                "shasum": ""
+            },
+            "require": {
+                "artarts36/str": "^1.0 || ^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArtARTs36\\EnvEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ArtARTs36",
+                    "email": "temicska99@mail.ru"
+                }
+            ],
+            "description": "Env Editor",
+            "support": {
+                "issues": "https://github.com/ArtARTs36/EnvEditor/issues",
+                "source": "https://github.com/ArtARTs36/EnvEditor/tree/1.1.2"
+            },
+            "time": "2021-08-30T23:24:19+00:00"
+        },
+        {
+            "name": "artarts36/str",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ArtARTs36/str.git",
+                "reference": "20a6afb8614abdc69dd3427d0f7eba76bfc59e44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ArtARTs36/str/zipball/20a6afb8614abdc69dd3427d0f7eba76bfc59e44",
+                "reference": "20a6afb8614abdc69dd3427d0f7eba76bfc59e44",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArtARTs36\\Str\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ArtARTs36",
+                    "email": "temicska99@mail.ru"
+                }
+            ],
+            "description": "Str",
+            "support": {
+                "issues": "https://github.com/ArtARTs36/str/issues",
+                "source": "https://github.com/ArtARTs36/str/tree/2.0.0"
+            },
+            "time": "2021-08-21T21:35:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "artarts36/db-creator-cli",
+    "description": "DB Creator CLI",
+    "type": "project",
+    "require": {
+        "artarts36/db-creator": "^1.0",
+        "artarts36/env-editor": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArtARTs36",
+            "email": "temicska99@mail.ru"
+        }
+    ]
+}
