@@ -2,7 +2,7 @@
 
 namespace ArtARTs36\DbCreator\Cli
 {
-    const ENV_FILE_PATH = 'db-creator.env';
+    const ENV_FILE_PATH = __DIR__ . DIRECTORY_SEPARATOR . 'db-creator.env';
 
     use ArtARTs36\DbCreator\Access;
     use ArtARTs36\DbCreator\Creator;
@@ -29,7 +29,7 @@ namespace ArtARTs36\DbCreator\Cli
 
             $env
                 ->set($prefix . '_HOST', 'localhost')
-                ->set($prefix . '_POST', '5432')
+                ->set($prefix . '_PORT', '5432')
                 ->set($prefix . '_USER', 'root')
                 ->set($prefix . '_PASSWORD', 'root');
         }
